@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+/* navbay stylying */
+.navbar{
+    position: absolute;
+    width: 100%;
+    padding: 30px 0;
+    /* background: crimson; */
+    font-family: sans-serif;
+}
+.navbar .max-width{
+    display: flex;   /*A flex container expands items to fill available free space or shrinks them to prevent overflow.*/
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: crimson;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+color: white;
+font-size: 18px;
+font-weight: 500;  /* The font-weight property of the CSS is used to set the weight or thickness of the font being used with the HTML Text*/
+margin-left: 25px;
+transition: color 0.3s ease;
+    
+}
+.navbar .menu li a:hover{
+    color: crimson;
+}
+
+
+/* Home Section */
+
+
+.home{
+    display: flex;
+    background: url("img/fdfdfd.jpg") no-repeat center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-2 span{
+    color: #f9004d;
+    
+}
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    margin-bottom: 50px;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+/* -----------------About Section---------------- */
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text h5 span{
+    color: crimson;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 13px;
+    border-radius: 30px;
+    transform: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
